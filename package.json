@@ -24,7 +24,8 @@
 		"prefmt": "prettier -w .",
 		"fmt": "eslint . --fix",
 		"prelint": "prettier -c .",
-		"lint": "eslint ."
+		"lint": "eslint .",
+		"test": "tsc --noEmit"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^19.5.0",
