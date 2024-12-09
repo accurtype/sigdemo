@@ -1,0 +1,7 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"extends": "./tsbase.json",
+	"compilerOptions": {},
+	"exclude": ["eslint.config.js", "cz-config.cjs"],
+	"include": ["lib"]
+}
