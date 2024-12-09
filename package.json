@@ -25,7 +25,9 @@
 		"fmt": "eslint . --fix",
 		"prelint": "prettier -c .",
 		"lint": "eslint .",
-		"test": "tsc --noEmit"
+		"test": "tsc --noEmit",
+		"build": "tsc",
+		"clean": "rimraf -g lib/**/*.{d.ts,js}"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^19.5.0",
